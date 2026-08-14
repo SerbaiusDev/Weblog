@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base{
+    @font-face {
+        font-family: "IranSans_Bold";
+        src: url(../assets/fonts/IRANSansXFaNum-Bold.ttf);
+    }
+    @font-face {
+        font-family: "IranSans_Light";
+        src: url(../assets/fonts/IRANSansXFaNum-Light.ttf);
+    }
+    @font-face {
+        font-family: "IranSans_Medium";
+        src: url(../assets/fonts/IRANSansXFaNum-Medium.ttf);
+    }
+    @font-face {
+        font-family: "IranSans_Regular";
+        src: url(../assets/fonts/IRANSansXFaNum-Regular.ttf)
+    }
+}
+
+@theme{
+    --font-iran_Bold:"IranSans_Bold";
+    --font-iran_Light:"IranSans_Light";
+    --font-iran_Medium:"IranSans_Medium";
+    --font-iran_Regular:"IranSans_Regular";
+
+    --color-bg_cream: #f7f0e5;
+    --color-bg_card: #fbf7f0;
+    --color-button: #7b8768;
+    --color-title: #263238;
+    --color-sub_text: #747474;
+    --color-gray: #ccc;
+}
